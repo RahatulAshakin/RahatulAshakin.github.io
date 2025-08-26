@@ -1,30 +1,49 @@
 <!doctype html><html lang="en"><head>
-<meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
 <title>Projects — Rahatul Ashakin</title>
 <link rel="stylesheet" href="assets/css/style.css"/></head>
-<body><div class="container"><header><div><strong>Rahatul Ashakin</strong></div><nav>
+<body>
+<div class="container">
+  <header>
+    <div><strong>Rahatul Ashakin</strong></div>
+    <nav>
       <a href="index.html">Home</a>
       <a href="publications.html">Publications</a>
       <a href="projects.html" class="active">Projects</a>
       <a href="bio.html">Bio</a>
       <a href="contact.html">Contact</a>
-    </nav></header>
+    </nav>
+  </header>
 
-<section class="card">
-  <h1>Projects</h1>
-  <div class="grid">
-    <div class="card">
-      <strong>QBert: FinBERT + QAOA/VQE</strong>
-      <p>Quantum optimization of FinBERT hyperparameters; improved performance over baseline.</p>
-      <p><a href="https://github.com/RahatulAshakin/FinBERT_Quantum_Optimization" target="_blank">GitHub →</a></p>
-    </div>
-    <div class="card">
-      <strong>ICU Antibiotic Resistance Analysis</strong>
-      <p>Modeling antibiotic resistance using clinical data; dashboards and interpretability.</p>
-      <p><a href="https://github.com/RahatulAshakin/ICU-ABX-Resistance" target="_blank">GitHub →</a></p>
-    </div>
-  </div>
-</section>
+  <section class="card">
+    <h1>Projects</h1>
+    <div class="grid">
+      <!-- FinBERT + QAOA/VQE -->
+      <article class="card">
+        <h2>FinBERT + QAOA/VQE</h2>
+        <p class="muted">Quantum-guided hyperparameter search for financial sentiment (FinBERT) with a reproducible pipeline.</p>
+        <p>
+          <a class="btn" href="https://github.com/RahatulAshakin/FinBERT_Quantum_Optimization" target="_blank" rel="noopener">GitHub →</a>
+          <a style="margin-left:10px" href="https://github.com/RahatulAshakin/FinBERT_Quantum_Optimization#readme" target="_blank" rel="noopener">README</a>
+          <a style="margin-left:10px" href="https://github.com/RahatulAshakin/FinBERT_Quantum_Optimization/tree/main/notebooks" target="_blank" rel="noopener">Notebooks</a>
+        </p>
+      </article>
 
-<footer>© <span id="y"></span> Rahatul Ashakin • GitHub Pages</footer></div>
-<script>document.getElementById('y').textContent=new Date().getFullYear()</script></body></html>
+      <!-- Quantum Optimization Sandbox -->
+      <article class="card">
+        <h2>Quantum Optimization Sandbox (ad-quantum-repurpose)</h2>
+        <p class="muted">Lightweight scaffold to repurpose ML experiments with quantum-inspired optimization (QAOA/VQE) and classical baselines.</p>
+        <p>
+          <a class="btn" href="https://github.com/RahatulAshakin/ad-quantum-repurpose" target="_blank" rel="noopener">GitHub →</a>
+          <a style="margin-left:10px" href="https://github.com/RahatulAshakin/ad-quantum-repurpose#readme" target="_blank" rel="noopener">README</a>
+          <a style="margin-left:10px" href="https://github.com/RahatulAshakin/ad-quantum-repurpose/tree/main/notebooks" target="_blank" rel="noopener">Notebooks</a>
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <footer>© <span id="y"></span> Rahatul Ashakin</footer>
+</div>
+<script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+</body></html>
